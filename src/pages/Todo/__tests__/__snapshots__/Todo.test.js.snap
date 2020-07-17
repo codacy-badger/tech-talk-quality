@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Todo page Should render withou crash 1`] = `
+<main
+  className="container"
+>
+  <div
+    className="center"
+  >
+    <h1
+      className="title"
+      data-test="todo-title"
+    >
+      Lista de tarefas
+    </h1>
+    <form
+      className="form"
+      data-test="todo-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="field"
+        data-test="todo-field"
+        onChange={[Function]}
+        value=""
+      />
+      <button
+        className="button"
+        data-test="todo-button"
+      >
+        Adicionar
+      </button>
+    </form>
+    <table
+      className="table"
+      data-test="todo-table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Tarefa
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Tabela vazia
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+`;

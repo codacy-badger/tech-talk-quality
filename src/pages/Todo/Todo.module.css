@@ -1,0 +1,50 @@
+.button {
+  background-color: #0c9;
+  border: none;
+  border-radius: 2px;
+  color: #f2f2f2;
+  padding: 0.5rem 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.field {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  flex: 1;
+  color: #595959;
+  padding: 0.5rem;
+}
+
+.field:focus {
+  border-color: #09f;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table thead th {
+  background-color: #fff;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 0.5rem 0.25rem;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.table tbody td {
+  padding: 0.25rem;
+}
+
+.title {
+  margin: 0;
+}
